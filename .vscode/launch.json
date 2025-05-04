@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-           "file": "/Users/harpreetsaini/Harpreet-Saini/activity-8/index.html" 
+           "file": "/Users/harpreetsaini/Harpreet-Saini/Project-2/index.html" 
         }
     ]
 }
