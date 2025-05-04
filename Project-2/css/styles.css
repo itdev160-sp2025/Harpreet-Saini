@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #task-list {
+    margin-top: 2rem;
+  }
+  
+  .task {
+    background: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 5px solid #007BFF;
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    border-left-color: green;
+  }
+  
